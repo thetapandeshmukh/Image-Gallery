@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="gallery">
+        <div class="filter">
+            <button class="filter-button active" data-filter="all">All</button>
+            <button class="filter-button" data-filter="nature">Nature</button>
+            <button class="filter-button" data-filter="animals">Animals</button>
+            <button class="filter-button" data-filter="architecture">Architecture</button>
+        </div>
+        <div class="image-container">
+            <div class="image nature"><img src="nature1.jpeg" alt="Nature 1"></div>
+            <div class="image animals"><img src="animal.jpeg" alt="Animals 1"></div>
+            <div class="image architecture"><img src="architecture 1.jpeg" alt="Architecture 1"></div>
+            <!-- Add more images with appropriate classes and tags -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+/* When you touch on any type. i mage of that type will be displayed */
